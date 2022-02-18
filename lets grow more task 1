@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="color: #21325e">To Do List</h1>
+    <p><br /></p>
+    <p><br /></p>
+    <div class="container">
+      <div id="newtask">
+        <input type="text" placeholder="Enter Task" />
+        <button id="push">ADD</button>
+      </div>
+      <div id="line"></div>
+      <div id="tasks"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
